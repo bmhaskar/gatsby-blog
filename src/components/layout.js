@@ -28,10 +28,16 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
+          
+      
+        <footer style={{background: `#44637C`,
+        margin: `0 auto`,
+       
+        padding: `1.45rem 1.0875rem`,
+        }}>
             © {new Date().getFullYear()}
           </footer>
-        </div>
+          </div>
       </>
     )}
   />

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Bharat Mhaskar - Blog`,
+    title: `Unleashing`,
     description: `This is my personal blog. Opinions are my own and not the views of my employer. `,
     author: `@BharatMhaskar`,
     siteUrl: 'https://bmhaskar.com',
