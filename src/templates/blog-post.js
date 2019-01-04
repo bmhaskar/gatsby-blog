@@ -9,7 +9,7 @@ import Share from '../components/share';
 
 function BlogPost(props) {
 
-    const {siteUrl: url, author }  = props.data.site.siteMetadata
+    const {siteUrl: url }  = props.data.site.siteMetadata
      
     const thumbnail = props.data.markdownRemark.frontmatter.image &&
           props.data.markdownRemark.frontmatter.image.childImageSharp.resize.src
