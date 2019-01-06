@@ -8,19 +8,25 @@
     border: 1px solid  gainsboro;
     padding: .5rem;
     box-shadow: 0 -1px 4px #ede7e7;
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 
+ 
 img{
   height: 90% !important;
 }
 
 .post-list:hover{
     background-color: whitesmoke;
+    color: black;  
+}
+
+.post-list:hover h2{
+    color: #00a562;
 }
 
 
-.tags{
+.tags {
     display: flex;
     flex-direction: column;
 }
@@ -28,7 +34,7 @@ img{
 .tags a{
     margin-bottom: 2rem;
     list-style: none;
-        background-color: #ececec;
+    background-color: #ececec;
     border: 1px solid #ffff;
     border: 1px solid #ffff;
     width: 80%;

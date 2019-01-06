@@ -30,10 +30,10 @@ const Layout = ({ children }) => (
           {children}
           
       
-        <footer style={{background: `#44637C`,
+        <footer style={{ 
         margin: `0 auto`,
        
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.45rem 0`,
         }}>
             © {new Date().getFullYear()}
           </footer>
