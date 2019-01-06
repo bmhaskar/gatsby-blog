@@ -10,13 +10,17 @@ const IndexPage = (props) => {
   return (<Layout>
     <SEO title="Home" keywords={[`bmhaskar`,`Bharat Mhaskar`,`gatsby`, `application`, `react`]} />
     {postList.edges.map(({ node }, i) => (
-        <Link to={node.fields.slug} key={i} className="link" >
+        <React.Fragment  key={i}>
+        <Link to={node.fields.slug} className="link" >
           <div className="post-list">
-            <h1>{node.frontmatter.title}</h1>
+            <h2>{node.frontmatter.title}</h2>
             <span>{node.frontmatter.date}</span>
             <p>{node.excerpt}</p>
           </div>
         </Link>
+        <hr />
+        </React.Fragment>
+        
       ))}
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
