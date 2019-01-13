@@ -23,3 +23,8 @@ Be happy :yellow_heart:  Travel :heart:
 
 
 #### I have been working for past 10 years. First half was mostly backend tech and now I am doing fullstack. 
+
+
+### How to connect with me? 
+Via [Twitter](https://twitter.com/BharatMhaskar) or [LinkedIn](https://www.linkedin.com/in/bharat-mhaskar-0954ab8/)
+
