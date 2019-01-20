@@ -12,7 +12,7 @@ tags: ['health', 'persistence', 'weekly']
 - [x] Write weekly post. :+1: Checkout [JS Initial screening questions](/js-initial-screening-questions)
 
 ## What next?
-Made my mind to keep the comments on twitter. 
-Comming up with material for the product idea.
+Made my mind to keep the comments on twitter.
+Coming up with material for the product idea.
 
 
