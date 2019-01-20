@@ -3,7 +3,7 @@ title: First week
 description: Looking back at last week
 date: '2019-01-13'
 image: 1st-week.png
-tags: ['health', 'persistence']
+tags: ['health', 'persistence', 'weekly']
 ---
 
 ## Met the goals? ... Yes, partially!!
