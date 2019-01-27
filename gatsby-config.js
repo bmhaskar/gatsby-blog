@@ -30,8 +30,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Bharat Mhaskar Blog`,
+        short_name: `bmhaskar`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#00a562`,
