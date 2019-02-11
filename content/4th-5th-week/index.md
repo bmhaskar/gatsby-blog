@@ -9,7 +9,8 @@ tags: ['health', 'persistence', 'weekly']
 ## Met the goals? ... Yes.
 - [x] Exercised for 8 days. Yes mostly :walking:
 - [x] Followed 9 to 5 work hours. :heavy_check_mark:
-- [x] Write weekly post. Could not do so last week :disappointed:, will try this time. 
+- [x] Write weekly post. :+1: Checkout [Integrating the HTML/CSS and JavaScript developers](/integrating-js-and-html-developers/)
+
 
 ## What next?
 Focusing again since I got distracted from routine.
