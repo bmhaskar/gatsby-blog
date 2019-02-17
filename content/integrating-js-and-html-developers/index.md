@@ -57,7 +57,7 @@ This allowed for creating styled HTML which could be controlled from CSS with va
 
 The front-end developers could see the individual components in the real web page so that the adaptation in web-app becomes easy.
 
-These per project repositories will be hosted in a GitLab instance where any employee could find them.
+These per project repositories will be hosted in a GitLab instance where any developer could find them.
 
 ### Communication w.r.t. feature / component
 
@@ -83,7 +83,7 @@ Any web developer can pick up others work.
 Frontend developers can coordinate with any web developers, he need not be the one who set up the base project. They can focus on integration assuming that individual component CSS will work in a given container.
 
 ### Numbers
-This resulted in 1/4th to 1/3rd time saved per project for web developers. Ready to use the library of styled HTML widgets for frontend developers. On average, half an hour daily of co-ordination time saved.
+This resulted in 25% to 33% time saved per project for web developers. Ready to use the library of styled HTML widgets for frontend developers. On average, half an hour daily of co-ordination time saved for both web and frontend devs.
 
 
 ###*It was recognised as a process innovation for the process proposal and help in execution.*
