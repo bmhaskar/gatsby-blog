@@ -4,19 +4,18 @@ module.exports = {
     description: `This is my personal blog. Opinions are my own and not the views of my employer. `,
     author: `@BharatMhaskar`,
     siteUrl: 'https://bmhaskar.com',
-   
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-     
-      {
-        resolve: `gatsby-plugin-typography`,
-        options: {
-          pathToConfigModule: `src/utils/typography.js`,
-        },
+
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography.js`,
       },
-    
+    },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -41,11 +40,22 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    
+
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-emoji-unicode`],
+        plugins: [
+          `gatsby-remark-emoji-unicode`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
       },
     },
     'gatsby-plugin-offline',
@@ -53,7 +63,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
-        name: "pages",
+        name: 'pages',
       },
     },
   ],
