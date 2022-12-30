@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Bharat Mhaskar<bmhaskar@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.0.76",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.0.25",
     "gatsby-plugin-catch-links": "^2.0.11",
     "gatsby-plugin-manifest": "^2.0.9",
